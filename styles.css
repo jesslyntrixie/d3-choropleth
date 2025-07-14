@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#tooltip{
+        position: absolute;
+        background-color: #ffffff;
+        color: #1c2e4a;
+        padding: 8px;
+        border: 1px solid #90caf9;
+        border-radius: 4px;
+        font-size: 12px;
+        pointer-events: none;
+        opacity: 0;
+        font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa ;
+    color: #e3f2fd;
+    z-index: 10;
+}
+
+  svg text, .tick text {
+    fill: #cfd8dc;
+  }
+
+  .county {
+    stroke: #d0dbe8;
+    stroke-width: 0.5px;
+  }
+
+  /* h1, h2 {
+    color: #235789;
+  } */
+
+  h1{
+    font-size: 2rem;
+    color: #235789;
+  }
+
+  h2{
+    color: #2f3e4e;
+  }
